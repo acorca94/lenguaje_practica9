@@ -8,74 +8,120 @@
   </head>
 
   <body>
+    <header>
+      <nav>
+        <ul>
+          <img src="IMG/Captura de pantalla 2024-01-22 124924.png">
+          <li>CONTACTO</li>
+          <li><a href="/index.html" class="volver"> <-- VOLVER INICIO</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <div>
-        <h2>Datos de contacto</h2>
-        <p>
-            Dirección: <br> <br>
-            Calle Astronomía, 5, 41015, Sevilla (España)
-        </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.4391532632867!2d-5.975764700000039!3d37.426729200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126967c5d921a9%3A0x2a92c99056ce8393!2sC.%20Astronom%C3%ADa%2C%20Norte%2C%2041015%20Sevilla!5e0!3m2!1ses!2ses!4v1706528585245!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <br>
-        <p>
-            Teléfono: <br><br>
-           +34 622687679
-        </p>
-        <p>
-            Email: <br> <br>
-            perfectorganization@gmail.com
-        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.4391532632867!2d-5.975764700000039!3d37.426729200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126967c5d921a9%3A0x2a92c99056ce8393!2sC.%20Astronom%C3%ADa%2C%20Norte%2C%2041015%20Sevilla!5e0!3m2!1ses!2ses!4v1706528585245!5m2!1ses!2ses"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
-      
-      <div>
-        <h2>Formulario</h2>
-        Nombre
-        <br />
-        <input type="text" id="name" name="name" value="" />
-        <br />
-        <br />
-        Apellidos
-        <br />
-        <input type="text" id="surname" name="surname" value="" />
-        <br />
-        <br />
-        Email:
-        <br />
-        <input type="email" id="correo" name="correo" value="" />
-        <br />
-        <br />
-        Teléfono:
-        <br />
-        <select name="prefijo">
+      <div id="divpadre">
+        <div id="div2">
+          <br />
+          <h2>Datos de contacto</h2>
+          <p>
+            Dirección: <br />
+            <br />
+            Calle Astronomía, 5, 41015, Sevilla (España)
+          </p>
+          <p>
+            Teléfono: <br /><br />
+            +34 622687679
+          </p>
+          <p>
+            Email: <br />
+            <br />
+            perfectorganization@gmail.com
+          </p>
+        </div>
+
+        <div id="div3">
+          <h2>Presupuesto</h2>
+          Nombre
+          <br />
+          <input type="text" id="name" name="name" value="" />
+          <br />
+          <br />
+          Apellidos
+          <br />
+          <input type="text" id="surname" name="surname" value="" />
+          <br />
+          <br />
+          Email:
+          <br />
+          <input type="email" id="correo" name="correo" value="" />
+          <br />
+          <br />
+          Teléfono:
+          <br />
+          <select name="prefijo">
             <option value="España">+34</option>
             <option value="italia">+23</option>
             <option value="suecia">+01</option>
             <option value="francia">+29</option>
-        </select>
-        <input type="email" id="correo" name="correo" value="" />
-        <br />
-        <br />
-        Descripción/Comentario:
-        <br />
-        <textarea rows="5" cols="50" name="description"></textarea>
-        <br />
-        <br />
-        <input type="checkbox" id="novedades" name="novedades" /> Deseo recibir
-        información sobre novedades y ofertas
-        <br />
-        <br />
-        <input type="checkbox" id="condiciones" name="condiciones" /> Declaro
-        haber leído y aceptar las condiciones generales y la normativa sobre
-        protección de datos
-        <br />
-        <br />
-        <a href="/enviado.html" target="_blank"><input type="submit" id="envio" name="envio" value="Enviar" /></a>
+          </select>
+          <input type="email" id="correo" name="correo" value="" />
+          <br />
+          <br />
+          Descripción/Comentario:
+          <br />
+          <textarea rows="5" cols="50" name="description"></textarea>
+          <br />
+          <br />
+          <input type="checkbox" id="novedades" name="novedades" /> Deseo
+          recibir información sobre novedades y ofertas
+          <br />
+          <br />
+          <input type="checkbox" id="condiciones" name="condiciones" /> Declaro
+          haber leído y aceptar las condiciones generales y la normativa sobre
+          protección de datos
+          <br />
+          <br />
+          <a href="/enviado.html" target="_blank"
+            ><input type="submit" id="envio" name="envio" value="Enviar"
+          /></a>
+        </div>
       </div>
     </main>
 
     <footer>
-      <div>
-        Publicidad con lo mismo que el de inicio
+      <div id="div4">
+        <p class="pfooter">
+          Diseño web La Teva Web SL ® - Diputación 256, 4t 1a, 08007 Barcelona -
+          Tel. 93 250 35 -
+          <a href="mailto: acc0087@alu.medac.es?subject=?body= "
+            >86info@latevaweb.com</a
+          >
+
+          <span class="spanfooter">Hecho con amor en Barcelona</span>
+        </p>
+        <p class="pfooter2">
+          Política de privacidad - Política de cookiesNota legal - Mapa web
+        </p>
+      </div>
+      <div id="div5">
+        <ul class="ulclass">
+          Empresa
+          <li>Precios</li>
+          <li>Contacto</li>
+          <li>Blog</li>
+          <li>Kit Digital</li>
+        </ul>
       </div>
     </footer>
   </body>

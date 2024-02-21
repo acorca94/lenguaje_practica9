@@ -1,0 +1,139 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    flex: 1;
+    min-width: 200px;
+}
+
+div{
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    border: 1px solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: black;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.volver{
+    padding-left: 1000px;
+}
+
+li a{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-decoration: none;
+    color: white;
+}
+
+#padre1{
+    margin-bottom: 1%;
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    width: auto;
+}
+
+#presupuesto{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: auto;
+    padding-top: 10px;
+    margin-bottom: 1%;
+    margin-left: 12%;
+    margin-right: 12%;
+    height: 30px;
+}
+
+#presupuesto a{
+    color: white;
+}
+
+#padre1 div p{
+    width: 400px;
+    justify-content: center;
+}
+
+.divbodas:hover{
+    cursor: pointer;
+    transform: scale(1.0, 0.5);
+}
+
+.divaniversarios:hover{
+    cursor: pointer;
+    transform: scale(1.0, 0.5);
+}
+
+.divcongresos:hover{
+    cursor: pointer;
+    transform: scale(1.0, 0.5);
+}
+
+.divbodas img{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.divaniversarios img{
+    
+    width: 400px;
+    height: 400px;
+}
+
+.divcongresos img{
+    
+    width: 400px;
+    height: 400px;
+}
+
+#div4{
+    border: 1px solid black;
+    width: auto;
+    padding: 10px;
+    margin-top: auto;
+    background-color: black;
+    color: white;
+}
+
+.pfooter{
+    font-size: medium;
+}
+.pfooter2{
+    font-size: medium;
+}
+.spanfooter{
+    padding-left: 500px;
+}
+
+#div5{
+    border: 1px solid black;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+
+.ulclass{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.correo{
+    color: white;
+}
